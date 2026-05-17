@@ -79,7 +79,7 @@ To build and install the RPM package on Fedora/RHEL-based systems:
 sudo dnf install -y rustc rpm-build
 git clone --recurse-submodules https://github.com/steganogram/stegano-rs.git
 cd stegano-rs
-make build
+make build-rpm
 make install
 ```
 

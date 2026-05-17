@@ -9,7 +9,7 @@ setup:
 	command -v cargo-generate-rpm >/dev/null 2>&1 || cargo install cargo-generate-rpm
 
 # Build
-build: setup
+build-rpm: setup
 	# Build the stegano binary
 	@echo "Building the stegano binary..."
 	cargo build --release
